@@ -76,7 +76,7 @@
         null,
         null
       ],
-      "/Users/Hyper/GIT/RPS/spec/features/web_helper.rb": [
+      "/Users/Hyper/GIT/RPS/app/controllers/web_helper.rb": [
         1,
         4,
         4,
@@ -97,12 +97,6 @@
         null,
         1,
         3,
-        null,
-        null,
-        1,
-        4,
-        4,
-        4,
         null
       ],
       "/Users/Hyper/GIT/RPS/spec/computer_spec.rb": [
@@ -156,6 +150,13 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/Hyper/GIT/RPS/spec/features/test_helper_spec.rb": [
+        1,
+        4,
+        4,
+        4,
         null
       ],
       "/Users/Hyper/GIT/RPS/spec/game_spec.rb": [
@@ -225,6 +226,6 @@
         null
       ]
     },
-    "timestamp": 1495023989
+    "timestamp": 1495041732
   }
 }

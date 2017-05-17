@@ -2,7 +2,7 @@ require 'sinatra/base'
 require_relative '../models/players.rb'
 require_relative '../models/game.rb'
 require_relative '../models/computer.rb'
-require_relative '../../spec/features/web_helper.rb'
+require_relative 'web_helper.rb'
 
 class RPS < Sinatra::Base
 
