@@ -11,11 +11,3 @@ end
 def new_game
   @game = Game.new(@button_pressed, Computer.new.selection)
 end
-
-def computer_choice
-  @game.computer_selection
-end
-
-def player_choice
-  @game.player_selection
-end

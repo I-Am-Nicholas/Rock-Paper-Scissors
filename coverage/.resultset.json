@@ -94,14 +94,6 @@
         null,
         1,
         3,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
-        1,
-        3,
         null
       ],
       "/Users/Hyper/GIT/RPS/spec/computer_spec.rb": [
@@ -231,6 +223,6 @@
         null
       ]
     },
-    "timestamp": 1495057223
+    "timestamp": 1495059861
   }
 }
