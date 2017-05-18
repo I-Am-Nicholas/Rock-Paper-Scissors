@@ -35,10 +35,3 @@ This will download the necessary files to your machine.
   * Implement a best-of-three game as per the accepted game rules, perhaps using an array to store scores temporarily within the Game class.
 
   * Make the game a touch more intuitive. After the initial play, when clicking the **Try Again** button, the user is taken back to the same greeting page as before as if visiting the site for the first time. This needs to be changed.
-
-
-## Issues
-
-  * The game_spec file's **Game** class repeats instantiation in each of it's *it* block. I considered inserting *let* helper methods at each example but that seemed to be replacing one type of repetition for another. I'm sure there's a way to accomplish this but it eludes me at present.
-
-  * I couldn't see any other way to tackle the problem other than by overhauling my code so that the **Game** class wouldn't expect any arguments.
