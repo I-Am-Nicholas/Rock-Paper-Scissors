@@ -1,9 +1,7 @@
 class Computer
 
-  RPS_OBJECTS = [:ROCK, :PAPER, :SCISSORS]
-
   def selection
-    RPS_OBJECTS.sample
+    [:ROCK, :PAPER, :SCISSORS].sample
   end
 
 end
