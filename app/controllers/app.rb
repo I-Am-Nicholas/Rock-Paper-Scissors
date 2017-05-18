@@ -1,10 +1,11 @@
 require 'sinatra/base'
-require_relative '../models/players.rb'
-require_relative '../models/game.rb'
-require_relative '../models/computer.rb'
-require_relative 'web_helper.rb'
+require './app/models/players.rb'
+require './app/models/game.rb'
+require './app/models/computer.rb'
+require './app/helpers/RPS-helpers'
 
 class RPS < Sinatra::Base
+  helpers RPSHelpers
 
   enable :sessions
   set :root, '/Users/Hyper/GIT/RPS/app'
