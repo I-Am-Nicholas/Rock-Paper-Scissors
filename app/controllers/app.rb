@@ -29,7 +29,7 @@ class RPS < Sinatra::Base
   end
 
   get '/play' do
-    button_pressed()
+    player_choice()
     new_game()
     erb @game.result
   end
