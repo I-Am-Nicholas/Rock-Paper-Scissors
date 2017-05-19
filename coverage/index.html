@@ -14,18 +14,18 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-18T20:53:36+01:00">2017-05-18T20:53:36+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-19T12:44:38+01:00">2017-05-19T12:44:38+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">100.0%</span></span>
+    (<span class="covered_percent"><span class="green">97.25%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.98
+         1.88
        </span>
     </span> hits/line)
   </h2>
@@ -33,8 +33,8 @@
   <div>
     <b>9</b> files in total.
     <b>109</b> relevant lines. 
-    <span class="green"><b>109</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed </span>
+    <span class="green"><b>106</b> lines covered</span> and
+    <span class="red"><b>3</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,22 +52,22 @@
       
       <tr>
         <td class="strong"><a href="#a4f049e80856df527bfd3a7267a4404086dcc981" class="src_link" title="app/controllers/app.rb">app/controllers/app.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>33</td>
-        <td>21</td>
-        <td>21</td>
-        <td>0</td>
-        <td>2.0</td>
+        <td class="green strong">91.67 %</td>
+        <td>38</td>
+        <td>24</td>
+        <td>22</td>
+        <td>2</td>
+        <td>1.8</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#68a695b94e2a54f9d1f6e11af83e0e5b1cdf0de5" class="src_link" title="app/helpers/RPS-helpers.rb">app/helpers/RPS-helpers.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>17</td>
-        <td>9</td>
-        <td>9</td>
+        <td>12</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
-        <td>3.3</td>
+        <td>3.5</td>
       </tr>
       
       <tr>
@@ -92,12 +92,12 @@
       
       <tr>
         <td class="strong"><a href="#599f7e2f16832daf4137a1f3726010e19abb5b53" class="src_link" title="app/models/players.rb">app/models/players.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">66.67 %</td>
         <td>7</td>
         <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>2.0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0.7</td>
       </tr>
       
       <tr>
@@ -159,11 +159,11 @@
         <div class="source_table" id="a4f049e80856df527bfd3a7267a4404086dcc981">
   <div class="header">
     <h3>app/controllers/app.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="green">91.67 %</span> covered</h4>
     <div>
-      <b>21</b> relevant lines. 
-      <span class="green"><b>21</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>24</b> relevant lines. 
+      <span class="green"><b>22</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -305,13 +305,13 @@
         <li class="covered" data-hits="4" data-linenumber="23">
           <span class="hits">4</span>
           
-          <code class="ruby">    new_player()</code>
+          <code class="ruby">    @player = session[:p1]</code>
         </li>
       
         <li class="covered" data-hits="4" data-linenumber="24">
           <span class="hits">4</span>
           
-          <code class="ruby">    erb :welcome</code>
+          <code class="ruby">    erb :play1</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
@@ -329,40 +329,70 @@
         <li class="covered" data-hits="1" data-linenumber="27">
           <span class="hits">1</span>
           
-          <code class="ruby">  get &#39;/final&#39; do</code>
+          <code class="ruby">  get &#39;/play2&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="28">
-          <span class="hits">3</span>
+        <li class="missed" data-hits="0" data-linenumber="28">
           
-          <code class="ruby">    button_pressed()</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="29">
-          <span class="hits">3</span>
           
-          <code class="ruby">    new_game()</code>
+          <code class="ruby">    @player = session[:p1]</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="30">
-          <span class="hits">3</span>
+        <li class="missed" data-hits="0" data-linenumber="29">
           
-          <code class="ruby">    erb @game.result</code>
+          
+          <code class="ruby">    erb :play2</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="31">
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="never" data-hits="" data-linenumber="31">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &#39;/play&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="33">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    button_pressed()</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="34">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    new_game()</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="35">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    erb @game.result</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
           
           
           <code class="ruby">end</code>
@@ -377,8 +407,8 @@
     <h3>app/helpers/RPS-helpers.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -401,19 +431,19 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  def new_player</code>
+          <code class="ruby">  def button_pressed</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="4">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
           
-          <code class="ruby">    @player1 = session[:p1]</code>
+          <code class="ruby">    arr = [params[:ROCK], params[:PAPER], params[:SCISSORS]]</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="5">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="12" data-linenumber="5">
+          <span class="hits">12</span>
           
-          <code class="ruby">    Players.new(@player1)</code>
+          <code class="ruby">    arr.each {|x| @button_pressed = x.to_sym unless x == nil}</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -431,58 +461,28 @@
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">  def button_pressed</code>
+          <code class="ruby">  def new_game</code>
         </li>
       
         <li class="covered" data-hits="3" data-linenumber="9">
           <span class="hits">3</span>
           
-          <code class="ruby">    arr = [params[:ROCK], params[:PAPER], params[:SCISSORS]]</code>
+          <code class="ruby">    @game = Game.new(@button_pressed, Computer.new.selection)</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="10">
-          <span class="hits">12</span>
+        <li class="never" data-hits="" data-linenumber="10">
           
-          <code class="ruby">    arr.each {|x| @button_pressed = x.to_sym unless x == nil}</code>
+          
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def new_game</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="14">
-          <span class="hits">3</span>
-          
-          <code class="ruby">    @game = Game.new(@button_pressed, Computer.new.selection)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
           
           
           <code class="ruby">end</code>
@@ -687,11 +687,11 @@
         <div class="source_table" id="599f7e2f16832daf4137a1f3726010e19abb5b53">
   <div class="header">
     <h3>app/models/players.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">66.67 %</span> covered</h4>
     <div>
       <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
   
@@ -716,8 +716,8 @@
           <code class="ruby">  def initialize(player)</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="4">
-          <span class="hits">4</span>
+        <li class="missed" data-hits="0" data-linenumber="4">
+          
           
           <code class="ruby">    @player = player</code>
         </li>

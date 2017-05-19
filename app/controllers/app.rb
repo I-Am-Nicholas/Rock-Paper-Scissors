@@ -20,11 +20,15 @@ class RPS < Sinatra::Base
   end
 
   get '/welcome' do
-    new_player()
-    erb :welcome
+    @player = session[:p1]
+    erb :play1
   end
 
-  get '/final' do
+  get '/play2' do
+    erb :play2
+  end
+
+  get '/play' do
     button_pressed()
     new_game()
     erb @game.result

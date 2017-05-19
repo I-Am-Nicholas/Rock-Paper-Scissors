@@ -24,14 +24,6 @@ This will download the necessary files to your machine.
 8. Play!
 
 
-## Styling
-
-* I decided to move the Scissors button to the middle of the three even though it doesn't read as expected (Rock, Scissors, Paper?). I did this because being the longest word it stuck out at the end and was graphically jarring. At this eye-candy stage in the game I felt the user would notice the asymmetry before the odd word order.
-
-
-
 ## For a more advanced iteration I would...
 
   * Implement a best-of-three game as per the accepted game rules, perhaps using an array to store scores temporarily within the Game class.
-
-  * Make the game a touch more intuitive. After the initial play, when clicking the **Try Again** button, the user is taken back to the same greeting page as before as if visiting the site for the first time. This needs to be changed.
