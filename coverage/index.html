@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-19T12:44:38+01:00">2017-05-19T12:44:38+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-20T10:43:58+01:00">2017-05-20T10:43:58+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">97.25%</span></span>
+    (<span class="covered_percent"><span class="green">98.32%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.88
+         1.94
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>9</b> files in total.
-    <b>109</b> relevant lines. 
-    <span class="green"><b>106</b> lines covered</span> and
-    <span class="red"><b>3</b> lines missed </span>
+    <b>10</b> files in total.
+    <b>119</b> relevant lines. 
+    <span class="green"><b>117</b> lines covered</span> and
+    <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,22 +52,22 @@
       
       <tr>
         <td class="strong"><a href="#a4f049e80856df527bfd3a7267a4404086dcc981" class="src_link" title="app/controllers/app.rb">app/controllers/app.rb</a></td>
-        <td class="green strong">91.67 %</td>
-        <td>38</td>
-        <td>24</td>
+        <td class="green strong">95.65 %</td>
+        <td>37</td>
+        <td>23</td>
         <td>22</td>
-        <td>2</td>
-        <td>1.8</td>
+        <td>1</td>
+        <td>1.9</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#68a695b94e2a54f9d1f6e11af83e0e5b1cdf0de5" class="src_link" title="app/helpers/RPS-helpers.rb">app/helpers/RPS-helpers.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>12</td>
-        <td>6</td>
-        <td>6</td>
+        <td>16</td>
+        <td>8</td>
+        <td>8</td>
         <td>0</td>
-        <td>3.5</td>
+        <td>3.6</td>
       </tr>
       
       <tr>
@@ -77,7 +77,7 @@
         <td>3</td>
         <td>3</td>
         <td>0</td>
-        <td>1.7</td>
+        <td>2.3</td>
       </tr>
       
       <tr>
@@ -87,7 +87,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>6.1</td>
+        <td>6.4</td>
       </tr>
       
       <tr>
@@ -140,6 +140,16 @@
         <td>1.0</td>
       </tr>
       
+      <tr>
+        <td class="strong"><a href="#88ef789446b1a273ed589706d4f9095940b457f1" class="src_link" title="spec/module_spec.rb">spec/module_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>16</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1.4</td>
+      </tr>
+      
     </tbody>
   </table>
 </div>
@@ -159,11 +169,11 @@
         <div class="source_table" id="a4f049e80856df527bfd3a7267a4404086dcc981">
   <div class="header">
     <h3>app/controllers/app.rb</h3>
-    <h4><span class="green">91.67 %</span> covered</h4>
+    <h4><span class="green">95.65 %</span> covered</h4>
     <div>
-      <b>24</b> relevant lines. 
+      <b>23</b> relevant lines. 
       <span class="green"><b>22</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
   
@@ -335,64 +345,58 @@
         <li class="missed" data-hits="0" data-linenumber="28">
           
           
-          <code class="ruby">    @player = session[:p1]</code>
+          <code class="ruby">    erb :play2</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="29">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">    erb :play2</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="32">
+        <li class="covered" data-hits="1" data-linenumber="31">
           <span class="hits">1</span>
           
           <code class="ruby">  get &#39;/play&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="33">
+        <li class="covered" data-hits="3" data-linenumber="32">
           <span class="hits">3</span>
           
-          <code class="ruby">    button_pressed()</code>
+          <code class="ruby">    player_choice()</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="34">
+        <li class="covered" data-hits="3" data-linenumber="33">
           <span class="hits">3</span>
           
           <code class="ruby">    new_game()</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="35">
+        <li class="covered" data-hits="3" data-linenumber="34">
           <span class="hits">3</span>
           
           <code class="ruby">    erb @game.result</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="36">
+        <li class="never" data-hits="" data-linenumber="35">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="37">
+        <li class="never" data-hits="" data-linenumber="36">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="38">
+        <li class="never" data-hits="" data-linenumber="37">
           
           
           <code class="ruby">end</code>
@@ -407,8 +411,8 @@
     <h3>app/helpers/RPS-helpers.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>8</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -431,19 +435,19 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  def button_pressed</code>
+          <code class="ruby">  def player_choice</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="4">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="14" data-linenumber="4">
+          <span class="hits">14</span>
           
-          <code class="ruby">    arr = [params[:ROCK], params[:PAPER], params[:SCISSORS]]</code>
+          <code class="ruby">    tools.each {|x| @played = x.to_sym unless x == nil}</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="5">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="4" data-linenumber="5">
+          <span class="hits">4</span>
           
-          <code class="ruby">    arr.each {|x| @button_pressed = x.to_sym unless x == nil}</code>
+          <code class="ruby">    @played</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -461,13 +465,13 @@
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">  def new_game</code>
+          <code class="ruby">  def tools</code>
         </li>
       
         <li class="covered" data-hits="3" data-linenumber="9">
           <span class="hits">3</span>
           
-          <code class="ruby">    @game = Game.new(@button_pressed, Computer.new.selection)</code>
+          <code class="ruby">    [params[:ROCK], params[:PAPER], params[:SCISSORS]]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
@@ -482,7 +486,31 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def new_game</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="13">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @game = Game.new(@played, Computer.new.selection)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">end</code>
@@ -524,8 +552,8 @@
           <code class="ruby">  def selection</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="4">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="4">
+          <span class="hits">5</span>
           
           <code class="ruby">    [:ROCK, :PAPER, :SCISSORS].sample</code>
         </li>
@@ -614,20 +642,20 @@
           <code class="ruby">  def initialize(player_selection, computer_selection)</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="9">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="9">
+          <span class="hits">13</span>
           
           <code class="ruby">    @player_selection = player_selection</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="10">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="10">
+          <span class="hits">13</span>
           
           <code class="ruby">    @computer_selection = computer_selection</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="11">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="11">
+          <span class="hits">13</span>
           
           <code class="ruby">    @current_selection = [player_selection, computer_selection]</code>
         </li>
@@ -785,13 +813,13 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  it &quot;responds to the selection method&quot; do</code>
+          <code class="ruby">  it &#39;returns one element of the array&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(Computer.new).to respond_to{:selection}</code>
+          <code class="ruby">    expect(Computer.new.selection).to be_an_instance_of(Symbol)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -1515,6 +1543,120 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="88ef789446b1a273ed589706d4f9095940b457f1">
+  <div class="header">
+    <h3>spec/module_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe RPSHelpers do</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="2">
+          <span class="hits">4</span>
+          
+          <code class="ruby">  subject { Class.new.include(described_class).new }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;returns array element as a symbol&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    allow(subject).to receive(:tools) {[&#39;a&#39;]}</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(subject.player_choice).to equal(:a)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;can send a message to tools()&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(subject).to respond_to{:tools}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;instantiates a new instance of game&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(subject.new_game).to be_an_instance_of(Game)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">end</code>

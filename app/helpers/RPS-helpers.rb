@@ -1,7 +1,8 @@
 module RPSHelpers
 
   def player_choice
-    tools.each {|x| @player_choice = x.to_sym unless x == nil}
+    tools.each {|x| @played = x.to_sym unless x == nil}
+    @played
   end
 
   def tools
@@ -9,7 +10,7 @@ module RPSHelpers
   end
 
   def new_game
-    @game = Game.new(@player_choice, Computer.new.selection)
+    @game = Game.new(@played, Computer.new.selection)
   end
 
 end
