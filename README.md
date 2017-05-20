@@ -5,7 +5,7 @@
 
 1. Please navigate to your chosen directory in your Terminal and insert the following:
 
-- git clone https://github.com/marudine/rps-challenge.git
+- git clone https://github.com/marudine/Rock-Paper-Scissors
 
 This will download the necessary files to your machine.
 
