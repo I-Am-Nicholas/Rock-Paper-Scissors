@@ -22,6 +22,14 @@
   opacity: 0.75;
 }
 
+#rps-worried {
+  background-image: url("../images/rps-worried.png");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  height: 425px;
+  width: 700px;
+}
+
 #panel-one {
   background-image: url("../images/rock.png");
   margin-bottom: 20px;
