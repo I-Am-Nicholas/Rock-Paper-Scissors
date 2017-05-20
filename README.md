@@ -1,6 +1,9 @@
 # Rock, Paper, Scissors Weekend Challenge
 
 
+![Alt text](/Users/Hyper/git/RPS/public/images/RPSworried.png?raw=true "Optional Title")
+
+
 ## To Play
 
 1. Please navigate to your chosen directory in your Terminal and insert the following:

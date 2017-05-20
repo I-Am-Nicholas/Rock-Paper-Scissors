@@ -10,24 +10,26 @@
   height: 300px;
 }
 
-.panels {
-  float: left;
-  background-repeat: no-repeat;
-  border: 1px solid black;
-  height: 500px;
-  width: 32.25%;
-}
-
-.panels:hover {
-  opacity: 0.75;
-}
-
 #rps-worried {
   background-image: url("../images/rps-worried.png");
   background-repeat: no-repeat;
   margin-top: 50px;
   height: 425px;
   width: 700px;
+}
+
+.panels {
+  float: left;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 50px;
+  height: 500px;
+  width: 32.25%;
+}
+
+.panels:hover {
+  opacity: 0.75;
 }
 
 #panel-one {
@@ -37,7 +39,7 @@
 
 #panel-two {
   background-image: url("../images/paper.png");
-  margin: 0 25px 0 25px;
+  margin: 50px 25px 0 25px;
 }
 
 #panel-three {
