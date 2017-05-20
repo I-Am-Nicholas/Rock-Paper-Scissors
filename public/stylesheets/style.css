@@ -1,0 +1,37 @@
+#rsp-buttons {
+  margin-top: 55px;
+}
+
+#player-name {
+  margin-top: 50px;
+}
+
+#main {
+  height: 300px;
+}
+
+.panels {
+  float: left;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  height: 500px;
+  width: 32.25%;
+}
+
+.panels:hover {
+  opacity: 0.75;
+}
+
+#panel-one {
+  background-image: url("../images/rock.png");
+  margin-bottom: 20px;
+}
+
+#panel-two {
+  background-image: url("../images/paper.png");
+  margin: 0 25px 0 25px;
+}
+
+#panel-three {
+  background-image: url("../images/scissors.png");
+}

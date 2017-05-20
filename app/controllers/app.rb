@@ -9,6 +9,7 @@ class RPS < Sinatra::Base
 
   enable :sessions
   set :root, '/Users/Hyper/GIT/RPS/app'
+  set :public, '/Users/Hyper/GIT/RPS/public'
 
   get '/' do
     erb :index, :layout => true
