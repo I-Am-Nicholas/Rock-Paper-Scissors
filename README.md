@@ -4,7 +4,7 @@
 
 ## To Play
 
-1. Please navigate to your chosen directory in your Terminal and insert the following:
+1. Please navigate to your chosen directory from the command line and insert the following:
 
 - git clone https://github.com/marudine/Rock-Paper-Scissors
 
