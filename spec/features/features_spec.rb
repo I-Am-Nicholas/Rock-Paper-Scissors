@@ -35,6 +35,12 @@ feature "Play Rock, Paper, Scissors" do
       expect(page).to have_content("DRAW!")
     end
 
+    scenario "highlights what the player has selected" do
+      sign_in_and_enter()
+      click_button "ROCK"
+      expect(page).to have_content("YOUR CHOICE!")
+    end
+
   end
 
 end
