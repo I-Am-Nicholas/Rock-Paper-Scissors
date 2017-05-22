@@ -27,4 +27,4 @@ This will download the necessary files to your machine.
 
 ## For a more advanced iteration I would...
 
-  * Implement a best-of-three game as per the accepted game rules, perhaps using an array to store scores temporarily within the Game class.
+  * Implement a best-of-three game as per traditional game rules.
