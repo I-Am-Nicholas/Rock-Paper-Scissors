@@ -24,7 +24,7 @@
 }
 
 #rps-worried {
-  /*background-image: url("../images/rps-worried.png");*/
+  background-image: url("../images/rps-worried.png");
   background-repeat: no-repeat;
   margin-top: 50px;
   height: 425px;

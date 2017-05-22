@@ -38,9 +38,20 @@ feature "Play Rock, Paper, Scissors" do
     scenario "highlights what the player has selected" do
       sign_in_and_enter()
       click_button "ROCK"
-      expect(page).to have_content("YOUR CHOICE!")
+      expect(page).to have_content("You chose ROCK")
     end
 
+    scenario "highlights what the player has selected" do
+      sign_in_and_enter()
+      click_button "PAPER"
+      expect(page).to have_content("You chose PAPER")
+    end
+
+    scenario "highlights what the player has selected" do
+      sign_in_and_enter()
+      click_button "SCISSORS"
+      expect(page).to have_content("You chose SCISSORS")
+    end
   end
 
 end
