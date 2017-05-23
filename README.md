@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Weekend Challenge
+# Rock, Paper, Scissors (W.I.P)
 
 ![rpsworried](https://cloud.githubusercontent.com/assets/24227633/26279919/e31c8e28-3db9-11e7-9776-cead8d8db043.png)
 
