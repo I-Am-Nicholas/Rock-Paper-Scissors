@@ -1,8 +1,8 @@
 describe Game do
 
-  describe '#result' do
+  describe 'results' do
 
-    describe 'draw games' do
+    describe 'Draw games' do
 
       it "returns 'draw' when computer and player selection match" do
         game = Game.new(:ROCK, :ROCK)
@@ -21,7 +21,7 @@ describe Game do
 
     end
 
-    describe 'win games' do
+    describe 'Win games' do
 
       it "returns 'you win' when player beats computer" do
         game = Game.new(:ROCK, :SCISSORS)
@@ -40,7 +40,7 @@ describe Game do
 
     end
 
-    describe 'lose games' do
+    describe 'Lose games' do
 
       it "returns 'you lose' when computer beats player" do
         game = Game.new(:ROCK, :PAPER)
