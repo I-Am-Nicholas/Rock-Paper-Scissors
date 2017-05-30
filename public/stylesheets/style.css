@@ -45,6 +45,11 @@
   opacity: 0.75;
 }
 
+.winner {
+  border: 5px solid green;
+  opacity: 0.75;
+}
+
 #panel-one {
   background-image: url("../images/rock.png");
   margin-bottom: 20px;

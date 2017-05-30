@@ -10,7 +10,7 @@ module RPSHelpers
   end
 
   def new_game
-    @game = Game.new(@played, Computer.new.selection)
+    @game = Game.new(@played, Computer.selection)
   end
 
 end

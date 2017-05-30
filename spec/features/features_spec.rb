@@ -51,4 +51,12 @@ feature "Rock, Paper, Scissors" do
       expect(page).to have_content("You chose SCISSORS")
     end
 
+    feature "Results" do
+
+      scenario "highlights the winning image" do
+        sign_in_and_enter()
+        click_button "ROCK"
+        expect(page).to have_css(div.winner)
+      end
+    end
   end

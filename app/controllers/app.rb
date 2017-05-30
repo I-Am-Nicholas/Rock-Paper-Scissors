@@ -1,5 +1,4 @@
 require 'sinatra/base'
-require './app/models/players.rb'
 require './app/models/game.rb'
 require './app/models/computer.rb'
 require './app/helpers/RPS-helpers'

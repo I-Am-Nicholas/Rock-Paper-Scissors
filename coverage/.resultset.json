@@ -66,13 +66,17 @@
         null,
         1,
         15,
-        11,
+        9,
         null,
         null,
         null
       ],
       "/Users/Hyper/GIT/RPS/app/models/computer.rb": [
         1,
+        null,
+        1,
+        9,
+        null,
         null,
         1,
         8,
@@ -102,6 +106,10 @@
         1,
         null,
         1,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -161,6 +169,14 @@
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
         null,
         null,
         null
@@ -257,6 +273,6 @@
         null
       ]
     },
-    "timestamp": 1495494734
+    "timestamp": 1496153037
   }
 }

@@ -4,14 +4,4 @@
   <input type=submit value=RESET name=reset class="btn btn-primary">
 </form>
 
-<div id=panel-wrap-wrap>
-  <div id=panel-wrap>
-
-    <form action=/play method=get>
-      <button class=panels id=panel-one type=submit src="/images/rock.png" name=ROCK value=ROCK></button>
-      <button class=panels id=panel-two type=submit src="/images/paper.png" name=PAPER value=PAPER></button>
-      <button class=panels id=panel-three type=submit src="/images/scissors.png" name=SCISSORS value=SCISSORS></button>
-    </form>
-
-  </div>
-</div>
+<%=erb(:panels)%>

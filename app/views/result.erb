@@ -1,9 +1,8 @@
 <h2>Computer chose <%= @game.computer_selection %></h2>
 <h2>You chose <%= @game.player_selection %></h2>
 <br>
-<form class = "upper" action=/play2 method=get>
-  <button type=submit value=AGAIN class="btn btn-primary">PLAY AGAIN?</button>
-</form>
 <form action="/">
   <input type="submit" value=RESET name=reset class="btn btn-primary">
 </form>
+
+<%=erb(:panels)%>

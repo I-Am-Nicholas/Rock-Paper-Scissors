@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-23T00:12:14+01:00">2017-05-23T00:12:14+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-05-30T15:03:57+01:00">2017-05-30T15:03:57+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">98.47%</span></span>
+    (<span class="covered_percent"><span class="green">96.43%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.39
+         2.32
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>10</b> files in total.
-    <b>131</b> relevant lines. 
-    <span class="green"><b>129</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed </span>
+    <b>140</b> relevant lines. 
+    <span class="green"><b>135</b> lines covered</span> and
+    <span class="red"><b>5</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -73,11 +73,11 @@
       <tr>
         <td class="strong"><a href="#ab201576bfb62388fc1e4737344b7f64e281e8d7" class="src_link" title="app/models/computer.rb">app/models/computer.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>3</td>
-        <td>3</td>
+        <td>11</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
-        <td>3.3</td>
+        <td>4.0</td>
       </tr>
       
       <tr>
@@ -87,7 +87,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>7.9</td>
+        <td>7.7</td>
       </tr>
       
       <tr>
@@ -103,21 +103,21 @@
       <tr>
         <td class="strong"><a href="#6fc0e832aedf97ecfc06fb151567d3b7bb6eba3c" class="src_link" title="spec/computer_spec.rb">spec/computer_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>9</td>
-        <td>4</td>
-        <td>4</td>
+        <td>13</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#3c0949489acac71d107d4785b8ed80ce10e920a2" class="src_link" title="spec/features/features_spec.rb">spec/features/features_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>54</td>
-        <td>34</td>
-        <td>34</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td class="green strong">92.31 %</td>
+        <td>62</td>
+        <td>39</td>
+        <td>36</td>
+        <td>3</td>
+        <td>0.9</td>
       </tr>
       
       <tr>
@@ -501,7 +501,7 @@
         <li class="covered" data-hits="7" data-linenumber="13">
           <span class="hits">7</span>
           
-          <code class="ruby">    @game = Game.new(@played, Computer.new.selection)</code>
+          <code class="ruby">    @game = Game.new(@played, Computer.selection)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -531,8 +531,8 @@
     <h3>app/models/computer.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -555,13 +555,13 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  def selection</code>
+          <code class="ruby">  def self.arsenal</code>
         </li>
       
-        <li class="covered" data-hits="8" data-linenumber="4">
-          <span class="hits">8</span>
+        <li class="covered" data-hits="9" data-linenumber="4">
+          <span class="hits">9</span>
           
-          <code class="ruby">    [:ROCK, :PAPER, :SCISSORS].sample</code>
+          <code class="ruby">    @arsenal ||= [:ROCK, :PAPER, :SCISSORS]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
@@ -576,7 +576,31 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.selection</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="8">
+          <span class="hits">8</span>
+          
+          <code class="ruby">    arsenal().sample</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">end</code>
@@ -690,8 +714,8 @@
           <code class="ruby">    return :draw if computer_selection == player_selection</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="16">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="9" data-linenumber="16">
+          <span class="hits">9</span>
           
           <code class="ruby">    WINNING_COMBOS.include?(current_selection) ? :win : :lose</code>
         </li>
@@ -783,8 +807,8 @@
     <h3>spec/computer_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -819,13 +843,13 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  it &#39;returns one element of the array&#39; do</code>
+          <code class="ruby">  it &#39;returns one element from the arsenal&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(Computer.new.selection).to be_an_instance_of(Symbol)</code>
+          <code class="ruby">    expect(Computer.selection).to be_an_instance_of(Symbol)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -840,7 +864,31 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;returns the entire arsenal&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(Computer.arsenal).to be_an_instance_of(Array)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">end</code>
@@ -853,11 +901,11 @@
         <div class="source_table" id="3c0949489acac71d107d4785b8ed80ce10e920a2">
   <div class="header">
     <h3>spec/features/features_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="green">92.31 %</span> covered</h4>
     <div>
-      <b>34</b> relevant lines. 
-      <span class="green"><b>34</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>39</b> relevant lines. 
+      <span class="green"><b>36</b> lines covered</span> and
+      <span class="red"><b>3</b> lines missed.</span>
     </div>
   </div>
   
@@ -1182,7 +1230,55 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="54">
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    xfeature &quot;Results&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="56">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      scenario &quot;shows the chosen images&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="57">
+          
+          
+          <code class="ruby">        sign_in_and_enter()</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="58">
+          
+          
+          <code class="ruby">        click_button &quot;ROCK&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="59">
+          
+          
+          <code class="ruby">        expect(page).to have_css(&quot;button&quot;, :id =&gt; &quot;panel-one&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
           
           
           <code class="ruby">  end</code>
@@ -1395,7 +1491,7 @@
         <li class="covered" data-hits="1" data-linenumber="24">
           <span class="hits">1</span>
           
-          <code class="ruby">    describe &#39;win games&#39; do</code>
+          <code class="ruby">    describe &#39;Win games&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
@@ -1509,7 +1605,7 @@
         <li class="covered" data-hits="1" data-linenumber="43">
           <span class="hits">1</span>
           
-          <code class="ruby">    describe &#39;lose games&#39; do</code>
+          <code class="ruby">    describe &#39;Lose games&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">
