@@ -16,6 +16,7 @@ class RPS < Sinatra::Base
 
   post '/storage' do
     session[:p1]=params[:NAME]
+    session[:p2]=0
     redirect '/welcome'
   end
 
@@ -24,13 +25,10 @@ class RPS < Sinatra::Base
     erb :play1
   end
 
-  get '/play2' do
-    erb :play2
-  end
-
   get '/play' do
     player_choice()
     new_game()
+    @count = session[:p2]
     erb @game.result
   end
 
