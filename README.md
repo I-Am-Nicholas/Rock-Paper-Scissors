@@ -24,7 +24,3 @@ This will download the necessary files to your machine.
 
 8. Play!
 
-
-## For a more advanced iteration I would...
-
-  * Implement a best-of-three game as per traditional game rules.
